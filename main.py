@@ -4,7 +4,7 @@ camera = cv2.VideoCapture(0)
 camera.set(3 , 640)
 camera.set(4 , 480)
 mountain = cv2.imread('mount everest.jpg')
-mountain = cv2.resize(mountain , (640 , 480))
+mountain = cv2.resize(mountain ,(640 , 480))
 while True:
     status , frame = camera.read()
     if status:
